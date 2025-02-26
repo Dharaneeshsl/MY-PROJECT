@@ -1,0 +1,59 @@
+.title,.footer{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.company {
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.company .img {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media (max-width:500px) {
+    .company {
+        display: grid;
+        grid-template-rows: 30px;
+        grid-template-columns: repeat(12,5px);
+
+    }
+
+    img {
+        grid-column: span 12;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+.footer{
+    border: 0px;
+    margin: 0px;
+}
