@@ -1,0 +1,291 @@
+body {
+  margin: 0px;
+}
+
+div {
+  padding-left: 20px;
+}
+
+nav {
+  background-color: black;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: inline;
+  padding: 20px 10px 20px 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.content {
+  font-weight: bold;
+  line-height: 30px;
+}
+
+h1 {
+  color: rgb(59, 189, 233);
+}
+
+.btn {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  color: white;
+  margin: 10px 0px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+}
+
+.btn-secondary {
+  background-color: #008000;
+}
+
+.btn-dark {
+  background-color: #000000;
+}
+
+.text-primary {
+  color: #0d6efd;
+}
+
+.bg-primary {
+  background-color: #0d6efd;
+  padding: 20px;
+  color: white;
+}
+
+.bg-primary-light-1 {
+  background-color: #267dfd;
+  padding: 20px;
+  color: white;
+}
+
+.bg-primary-light-2 {
+  background-color: #408cfd;
+  padding: 20px;
+  color: white;
+}
+
+.bg-primary-light-3 {
+  background-color: #599bfe;
+  padding: 20px;
+  color: white;
+}
+
+.bg-primary-dark-1 {
+  background-color: #0257d5;
+  padding: 20px;
+  color: white;
+}
+
+.bg-primary-dark-2 {
+  background-color: #0143a3;
+  padding: 20px;
+  color: white;
+}
+
+.bg-primary-dark-3 {
+  background-color: #012e70;
+  padding: 20px;
+  color: white;
+}
+
+.text-secondary {
+  color: #008000;
+}
+
+.bg-secondary {
+  background-color: #008000;
+  padding: 20px;
+  color: white;
+}
+
+.bg-secondary-light-1 {
+  background-color: #009a00;
+  padding: 20px;
+  color: white;
+}
+
+.bg-secondary-light-2 {
+  background-color: #00b300;
+  padding: 20px;
+  color: white;
+}
+
+.bg-secondary-light-3 {
+  background-color: #00cd00;
+  padding: 20px;
+  color: white;
+}
+
+.bg-secondary-dark-1 {
+  background-color: #004d00;
+  padding: 20px;
+  color: white;
+}
+
+.bg-secondary-dark-2 {
+  background-color: #001a00;
+  padding: 20px;
+  color: white;
+}
+
+.bg-secondary-dark-3 {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.text-dark {
+  color: #000000;
+}
+
+.bg-dark {
+  background-color: #000000;
+  padding: 20px;
+  color: white;
+}
+
+.bg-dark-light-1 {
+  background-color: #0d0d0d;
+  padding: 20px;
+  color: white;
+}
+
+.bg-dark-light-2 {
+  background-color: #1a1a1a;
+  padding: 20px;
+  color: white;
+}
+
+.bg-dark-light-3 {
+  background-color: #262626;
+  padding: 20px;
+  color: white;
+}
+
+.bg-dark-dark-1 {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.bg-dark-dark-2 {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.bg-dark-dark-3 {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.text-success {
+  color: #198754;
+}
+
+.bg-success {
+  background-color: #198754;
+  padding: 20px;
+  color: white;
+}
+
+.bg-success-light-1 {
+  background-color: #1d9d61;
+  padding: 20px;
+  color: white;
+}
+
+.bg-success-light-2 {
+  background-color: #21b26f;
+  padding: 20px;
+  color: white;
+}
+
+.bg-success-light-3 {
+  background-color: #25c87c;
+  padding: 20px;
+  color: white;
+}
+
+.bg-success-dark-1 {
+  background-color: #115c39;
+  padding: 20px;
+  color: white;
+}
+
+.bg-success-dark-2 {
+  background-color: #09311e;
+  padding: 20px;
+  color: white;
+}
+
+.bg-success-dark-3 {
+  background-color: #010604;
+  padding: 20px;
+  color: white;
+}
+
+.text-danger {
+  color: #ea162b;
+}
+
+.bg-danger {
+  background-color: #ea162b;
+  padding: 20px;
+  color: white;
+}
+
+.bg-danger-light-1 {
+  background-color: #ec2d40;
+  padding: 20px;
+  color: white;
+}
+
+.bg-danger-light-2 {
+  background-color: #ee4556;
+  padding: 20px;
+  color: white;
+}
+
+.bg-danger-light-3 {
+  background-color: #f05c6b;
+  padding: 20px;
+  color: white;
+}
+
+.bg-danger-dark-1 {
+  background-color: #bc1122;
+  padding: 20px;
+  color: white;
+}
+
+.bg-danger-dark-2 {
+  background-color: #8d0d19;
+  padding: 20px;
+  color: white;
+}
+
+.bg-danger-dark-3 {
+  background-color: #5e0911;
+  padding: 20px;
+  color: white;
+}
+
+.background, .text {
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+.background {
+  padding: 10px;
+}/*# sourceMappingURL=css.css.map */

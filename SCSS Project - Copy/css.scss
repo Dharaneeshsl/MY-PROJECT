@@ -1,0 +1,95 @@
+$color1: black;
+$color2: white;
+$color3: rgb(59, 189, 233);
+@import "buttons";
+body {
+    margin: 0px;
+}
+div{
+    padding-left: 20px;
+}
+
+nav {
+    background-color: $color1 ;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: $color2;
+    display: inline;
+    padding: 20px 10px 20px 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.content{
+    font-weight: bold;
+    line-height: 30px;
+}
+h1 {
+    color: $color3;
+}
+
+.btn {
+    border: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    color: white;
+    margin: 10px 0px;
+}
+
+.btn-primary {
+    background-color: $bg-primary-color;
+}
+
+.btn-secondary {
+    background-color: $bg-secondary-color;
+}
+
+.btn-dark {
+    background-color: $bg-dark-color;
+}
+$colors:(
+    primary : #0d6efd,
+    secondary: #008000,
+    dark:#000000,
+    success:#198754,
+    danger:#ea162b,
+      
+);
+@each $key,$value in $colors{
+    .text-#{$key}{
+        color: $value;
+    }
+
+    .bg-#{$key}{
+        background-color: $value;
+        padding: 20px;
+        color: white;
+    }
+    @for $i from 1 through 3{
+        .bg-#{$key}-light-#{$i}{
+            background-color:lighten( $value,$i*5);
+            padding: 20px;
+            color: white;
+        }
+    }
+    @for $i from 1 through 3{
+        .bg-#{$key}-dark-#{$i}{
+            background-color:darken( $value,$i * 10);
+            padding: 20px;
+            color: white;
+        }
+    }
+}
+
+.background,.text{
+    padding-left: 30px;
+    font-weight: bold;
+}
+.background{
+    padding: 10px;
+}
